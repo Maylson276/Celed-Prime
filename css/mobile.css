@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --amarelo: #EBBB30
+    --azulEscuro: #2302EB
+    -azulClaro: #0275EB 
+    --text: font-family: Verdana, Tahoma, sans-serif
+}
+
+
