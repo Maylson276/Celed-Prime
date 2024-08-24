@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/*Importações*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --amarelo: #EBBB30;
+    --azulEscuro: #0502d3;
+    --azulClaro: #0275EB ;
+    --titulo: "Lobster", Verdana, sans-serif;
+    --subTitulo: font-family: "DM Serif Text", Verdana, sans-serif;
+    --text: font-family: Verdana, Tahoma, sans-serif;
+}
+
+.fixo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 125px;
+    background-image: linear-gradient(to right, var(--azulEscuro), var(--azulClaro));
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    margin-left: 80px;
+    display: flex;
+    color: var(--amarelo);
+}
+
+i.material-icons{
+    font-size: 3em;
+
+    margin: 10px 15px 0px 20px;
+}
+
+h1#title{
+    font-family: var(--titulo);
+    font-size: 3em;
+    
+}
+
+
+.navbar{
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.navbar li{
+    display: inline-block;
+    color: white;
+    padding-bottom: 2px;
+    border-bottom: solid 1px white ;
+    margin-right: 40px;
+    font-size: 1.1em;
+    transition: 0.1s;
+}
+.navbar li:hover{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-bottom: solid 4px var(--amarelo) ;
+}
+
+
