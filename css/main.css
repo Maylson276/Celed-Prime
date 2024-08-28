@@ -37,8 +37,9 @@ a{
 }
 
 .name{
-    margin-left: 80px;
+    margin-left: 10px;
     display: flex;
+    align-items: center;
     color: var(--amarelo);
 }
 
@@ -94,7 +95,7 @@ main{
 
 .home{
     width: 100%;
-    height: 83vh;
+    height: 100%;
     background-image: url(../imgs/Fundoabacaxi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +110,7 @@ main{
     content: '';
     position: absolute;
     width: 100%;
-    height: 83vh;
+     height: 75vh;
     background-color: rgb(5, 2, 211, 0.3);
 }
 
@@ -154,6 +155,7 @@ main{
     display: flex;
     justify-content: center;
     position: relative; 
+    margin-bottom: 62px;
 }
 .facilidades{
     display: flex;
