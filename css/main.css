@@ -153,3 +153,34 @@ h1#title{
     justify-content: center;
     position: relative; 
 }
+
+
+
+
+
+
+
+
+footer{
+    background-color: var(--azulEscuro);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer span{
+    font-weight: bolder;
+}
