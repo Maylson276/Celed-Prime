@@ -153,7 +153,63 @@ h1#title{
     justify-content: center;
     position: relative; 
 }
+.facilidades{
+    display: flex;
+    padding: 3%;
+    
+}
 
+
+.facilidades-rev{
+    display: flex;
+    padding: 3%;
+    flex-direction: row-reverse;
+}
+
+.fundo-facilidades{
+    background-image: linear-gradient(to bottom, var(--amarelo), var(--azulClaro));
+}
+
+
+.piscina{
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 5px -5px 18px #fff;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.piscina:hover{
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+
+.esquerda h2{
+    text-align: center;
+    margin-bottom: 6%;
+    font-family: "Lobster", Verdana, sans-serif;
+    font-size: 180%;
+}
+
+.esquerda{
+    flex-basis: 36%;
+    margin: auto;
+}
+
+.direita{
+    flex-basis: 36%;
+    margin: auto;
+}
+
+.loc{
+    background-image: linear-gradient(to bottom, var(--azulClaro), var(--amarelo));
+    text-align: center;
+    font-family: "Lobster", Verdana, sans-serif;
+}
+
+.loc h2{
+    padding-bottom: 2%;
+}
 
 
 
