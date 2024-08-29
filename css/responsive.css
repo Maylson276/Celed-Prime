@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+/*Telas Maiores*/
+@media(min-width: 2559px){
+    .home::before{
+        height: 55vh;
+    }
+    .gif{
+        height: 55vh;
+        margin-bottom: 0px;
+    }
+}
+
+
 /*Tablets*/
 @media (max-width: 1030px) {
     
@@ -26,13 +38,16 @@
         display: flex;
         flex-direction: row-reverse;
     }
-
+    
     .home::before{
-        height: 50vh;
+        height: 55vh;
     }
+    
+    
     #piguin{
         width:350px;
         height:300px;
+        margin-top: 0px;
     }
 
     .gif{ 
@@ -64,7 +79,8 @@
     
     .content{
         width: 380px;
-        margin-bottom: 30px;
+        margin-bottom: -15px;
+        margin-top: 60px;
 }
 
     #piguin{
