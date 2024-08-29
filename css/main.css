@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+/*Variáveis*/
 :root{
     --amarelo: #EBBB30;
     --azulEscuro: #0502d3;
@@ -17,6 +18,8 @@
     --subTitulo: font-family: "DM Serif Text", Verdana, sans-serif;
     --text: font-family: Verdana, Tahoma, sans-serif;
 }
+
+/*Estilização da header*/
 
 header{
     display: flex;
@@ -88,6 +91,8 @@ h1#title{
     border-bottom: solid 4px var(--amarelo) ;
 }
 
+/*Estilização da home*/
+
 main{
     width: 100%;
     margin-top: 125px;
@@ -110,7 +115,7 @@ main{
     content: '';
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 79vh;
     background-color: rgb(5, 2, 211, 0.3);
 }
 
@@ -157,6 +162,9 @@ main{
     position: relative; 
     margin-bottom: 62px;
 }
+
+/*Estilização de Facilidades*/
+
 .facilidades{
     display: flex;
     width: 100%;
@@ -207,6 +215,7 @@ main{
     margin: auto;
 }
 
+/*Estilização da localização*/
 .loc{
     background-image: linear-gradient(to bottom, var(--azulClaro), var(--amarelo));
     text-align: center;
@@ -224,13 +233,61 @@ main{
 
 
 
+/*Estilização da Reserva*/
 
 .reserva{
     width: 100%;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    width: 30%;
+    height: 650px;
+    background-color: var(--amarelo);
+    border-radius: 20px;
+    border: 5px solid var(--azulEscuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa h2{
+    color: var(--azulEscuro);
+    font-family: var(--subTitulo);
+    font-size: 2.5em;
+    text-shadow: 1.5px 1.5px 1.5px white;
+    border-bottom: 4px solid var(--azulClaro);
+    margin: 27px 0px 20px 0px;
+}
+
+.caixa p{
+    color: var(--azulEscuro);
+    font-size: 1.7em;
+    text-shadow: 1px 1px 1px white;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 420px;
+}
+
+label{
+    color: var(--azulClaro);
+    text-shadow: 1px 0px 0px white;
+    font-size: 2em;
 }
 
 
+
+/*Estilização do Footer*/
 
 footer{
     background-color: var(--azulEscuro);
