@@ -11,6 +11,23 @@
     }
 }
 
+@media (max-width: 1430px) {
+    label{
+        font-size: 1.6em;
+    }
+
+    input{
+        width: 200px;
+    }
+
+    button{
+        font-size: 1em;
+        padding: 15px 15px;
+        margin-left:  20px;
+
+    }
+
+}
 
 /*Tablets*/
 @media (max-width: 1030px) {
@@ -62,6 +79,26 @@
         font-size: 2.5em;
     }
     
+    .caixa {
+        width: 50%;
+    }
+
+    label{
+        font-size: 1.8em;
+    }
+
+    input{
+        width: 225px;
+    }
+
+    button{
+        font-size: 1em;
+        padding: 20px 35px;
+        margin-left:  20px;
+
+    }
+
+
     
 }
 
@@ -81,14 +118,18 @@
         width: 380px;
         margin-bottom: -15px;
         margin-top: 60px;
-}
+    }
 
     #piguin{
         margin-top: 10px;
-}
+    }
 
     #icon-nav{
         height: 55px;
+    }
+
+    .caixa {
+        width: 50%;
     }
 }
 
