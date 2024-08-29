@@ -129,9 +129,29 @@
     }
 
     .caixa {
-        width: 50%;
+        width: 60%;
+        height: 525px;
+    }
+
+    .caixa h2{
+        margin: 10px 0px 5px 0px;
+    }
+
+    input{
+        margin-bottom: 10px;
+    }
+
+
+}
+
+/*Formatação especifica para a área de reserva*/
+
+@media(max-width: 600px) {
+    .caixa{
+        width: 95%;
     }
 }
+
 
 /*Celulares pequenos*/
 
@@ -156,5 +176,22 @@
     #piguin{
         width:250px;
         height:200px;
+    }
+
+    .caixa{
+        height: 575px;
+    }
+
+    label{
+        font-size: 1.5em;
+    }
+
+    input{
+        width: 175px;
+        margin-bottom: 15px;
+    }
+
+    footer{
+        font-size: 1em;
     }
 }
