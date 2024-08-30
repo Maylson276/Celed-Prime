@@ -31,7 +31,6 @@
 
 @media(max-width: 1090px){
     .galeria{
-        background-color: rgb(75, 166, 226);
         display: grid;
         height: 100vh;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -47,13 +46,21 @@
     }
 
     .a1{
-        background-color: #F5fa;
+        background-color: transparent;
         grid-area: a1;
         border-radius: 26px;
         width: 21%;
         height: 100%;
         margin: auto;
     }
+
+    #THEGOAT{
+        height: 72%;
+        width: 133%;
+        bottom: 2px;
+        left: -27px;
+    }
+
 
     .a2{
         background-color: rgb(215, 26, 26);
@@ -95,9 +102,11 @@
 
     .a6{
         grid-area: a6;
-        width: 38%;
-        height: 100%;
-
+        width: 43%;
+        height: 161%;
+        position: relative;
+        bottom: 50%;
+        background-size: cover;
     }
 }
 
@@ -201,7 +210,6 @@
     }
 
     .galeria{
-        background-color: rgb(164, 109, 7);
         display: grid;
         height: 100vh;
         grid-template-columns: 1fr 1fr ;
@@ -217,7 +225,7 @@
     }
     
     .a1{
-        background-color: #F5fa;
+        background-color: transparent;
         grid-area: a1;
         border-radius: 26px;
         width: 32%;
@@ -266,6 +274,7 @@
         grid-area: a6;
         width: 68%;
         height: 100%;
+        bottom: 10%;
     }
 
     .caixa {
