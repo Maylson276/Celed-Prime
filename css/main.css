@@ -246,98 +246,81 @@ main{
 
 
 .a1{
-    background-color: #F5fa;
+    background-color: #fff;
     grid-area: a1;
     border-radius: 26px;
     width: 30%;
-    height: 70%;
+    height: 61%;
     margin: auto;
 }
 
-.a1 img{
-    width: 95%;
-    height: 98%;
-    border-radius: 10px;
-}
+
 
 
 .a2{
     background-color: rgb(215, 26, 26);
+    background-image: url(../imgs/festaroxa.jpg);
+    background-position: center;
+    background-size: cover;
     grid-area: a2;
     width: 78%;
-    height: 89%;
+    height: 61%;
     border-radius: 9px;
     margin: 0px 54px;
 }
 
-.a2 img{
-    width: 100%;
-    height: 99%;
-    border-radius: 10px;
-}
 
 .a3{
     background-color: rgb(221, 233, 0);
+    background-image: url(../imgs/piscina.jpg);
+    background-position: center;
+    background-size: cover;
     grid-area: a3;
     margin: 0px 12px;
     border-radius: 9px;
     width: 78%;
-    height: 89%;
-}
-
-.a3 img{
-    width: 99%;
-    height: 101%;
-    border-radius: 9px;
+    height: 61%;
 }
 
 
 .a4{
     background-color: rgb(0, 0, 0);
+    background-image: url(../imgs/nadador.jpg);
+    background-position: center;
+    background-size: cover;
     grid-area: a4;
     margin: 0px 54px;
     border-radius: 9px;
     width: 78%;
-    height: 89%;
-}
-
-.a4 img{
-    width: 99%;
-    height: 101%;
-    border-radius: 9px;
+    height: 61%;
 }
 
 
 .a5{
     background-color: rgb(38, 0, 255);
+    background-image: url(../imgs/sinuca.jpg);
+    background-position: center;
+    background-size: cover;
     grid-area: a5;
     margin: 0px 12px;
     border-radius: 9px;
     width: 78%;
-    height: 89%;
+    height: 61%;
 }
 
-.a5 img{
-    width: 99%;
-    height: 101%;
-    border-radius: 9px;
-}
 
 .a6{
     background-color: rgb(68, 0, 23);
+    background-image: url(../imgs/taças.jpg);
+    background-position: center;
+    background-size: cover;
     grid-area: a6;
     margin: auto;
     border-radius: 9px;
     width: 100%;
-    height: 70%;
+    height: 61%;
 }
 
-.a6 img{
-    width: 100%;
-    height: 100%;
-    border-radius: 17px;
-    margin: auto;
-}
 
 
 /*Estilização da Reserva*/

@@ -64,12 +64,6 @@
         margin: auto;
     }
     
-    .a2 img{
-        width: 90%;
-        height: 99%;
-        border-radius: 10px;
-    }
-    
     .a3{
         background-color: rgb(221, 233, 0);
         grid-area: a3;
@@ -77,12 +71,6 @@
         border-radius: 9px;
         width: 100%;
         height: 79%;
-    }
-    
-    .a3 img{
-        width: 90%;
-        height: 99%;
-        border-radius: 10px;
     }
     
     
@@ -95,11 +83,6 @@
         height: 79%;
     }
     
-    .a4 img{
-        width: 90%;
-        height: 99%;
-        border-radius: 10px;
-    }
     
     .a5{
         background-color: rgb(38, 0, 255);
@@ -188,9 +171,8 @@
 
     }
 
-
-    
 }
+
 
 
 /*Celulares*/
