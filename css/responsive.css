@@ -300,6 +300,26 @@
     }
 }
 
+@media (max-width: 567px) {
+    .facilidades{
+        flex-direction: column;
+    }
+
+    .facilidades-rev{
+        flex-direction: column;
+    }
+
+    .direita{
+        padding: 2%;
+        text-align: justify;
+    }
+
+    .esquerda img{
+        width: 100%;
+    }
+    
+}
+
 
 /*Celulares pequenos*/
 
