@@ -36,7 +36,7 @@ header{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .name{
@@ -339,10 +339,33 @@ main{
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--azulClaro);
     border: 3px solid var(--amarelo);
+}
+
+.title{
+    font-size: 2.5em;
+    color: var(--amarelo);
+    font-family: "Lobster", Verdana, sans-serif;
+}
+
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.box-control{
+    background-color: #000000;
+    color: white;
+    width: 70%;
+    height: 88%;
+    font-size: 1.4em;
+    font-weight: 600;
 }
 
 
