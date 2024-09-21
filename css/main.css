@@ -345,76 +345,7 @@ main{
     border: 3px solid var(--amarelo);
 }
 
-.caixa{
-    width: 30%;
-    height: 570px;
-    background-color: var(--amarelo);
-    border-radius: 20px;
-    border: 5px solid var(--azulEscuro);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.caixa h2{
-    color: var(--azulEscuro);
-    font-family: var(--subTitulo);
-    font-size: 2.5em;
-    text-shadow: 1.5px 1.5px 1.5px white;
-    border-bottom: 4px solid var(--azulClaro);
-    margin: 15px 0px 15px 0px;
-}
-
-.caixa p{
-    color: var(--azulEscuro);
-    font-size: 1.7em;
-    text-shadow: 1px 1px 1px white;
-    margin: 10px 0px;
-    text-align: center;
-}
-
-.form{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 345px;
-}
-
-label{
-    color: white;
-    text-shadow: 1px 0px 0px white;
-    font-size: 2em;
-}
-
-input{
-    background-color: rgba(0, 0, 0, 0.822);
-    color: white;
-    height: 35px;
-    width: 300px;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-size: 1.5em;
-}
-
-button{
-    font-size: 1em;
-    padding: 20px 40px;
-    background-color: var(--azulClaro);
-    color: white;
-    border: 2px solid white;
-    border-radius: 20px;
-    margin-bottom: 8%;
-}
-
-button:hover{
-    color: var(--azulClaro);
-    background-color:white ;
-    border: 2px solid var(--azulClaro);
-    transition: 0.3s;
-    cursor: pointer;
-}
 
 
 /*Estilização do Footer*/

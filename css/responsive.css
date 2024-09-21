@@ -11,23 +11,7 @@
     }
 }
 
-@media (max-width: 1430px) {
-    label{
-        font-size: 1.6em;
-    }
 
-    input{
-        width: 200px;
-    }
-
-    button{
-        font-size: 1em;
-        padding: 15px 15px;
-        margin-left:  20px;
-
-    }
-
-}
 
 @media(max-width: 1090px){
     .galeria{
@@ -161,24 +145,6 @@
         font-size: 2.5em;
     }
     
-    .caixa {
-        width: 50%;
-    }
-
-    label{
-        font-size: 1.8em;
-    }
-
-    input{
-        width: 225px;
-    }
-
-    button{
-        font-size: 1em;
-        padding: 20px 35px;
-        margin-left:  20px;
-
-    }
 
 }
 
@@ -277,28 +243,11 @@
         bottom: 10%;
     }
 
-    .caixa {
-        width: 60%;
-        height: 525px;
-    }
 
-    .caixa h2{
-        margin: 10px 0px 5px 0px;
-    }
-
-    input{
-        margin-bottom: 10px;
-    }
 
 }
 
-/*Formatação especifica para a área de reserva*/
 
-@media(max-width: 600px) {
-    .caixa{
-        width: 95%;
-    }
-}
 
 @media (max-width: 567px) {
     .facilidades{
