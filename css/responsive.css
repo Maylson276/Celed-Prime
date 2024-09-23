@@ -11,6 +11,17 @@
     }
 }
 
+@media (max-width: 1300px){
+    .form-group{
+        margin-bottom: 0px !important;
+    }
+    .button{
+        margin-top: 15px;
+    }
+    .box-control{
+    width: 85%;
+    }
+}
 
 
 @media(max-width: 1090px){
@@ -148,6 +159,12 @@
 
 }
 
+@media (max-width: 768px) {
+    .box-main{
+        width: 45%; 
+    }
+}
+
 
 
 /*Celulares*/
@@ -266,6 +283,10 @@
     .esquerda img{
         width: 100%;
     }
+
+    .box-main{
+        width: 75%;
+    }
     
 }
 
@@ -298,17 +319,12 @@
     .caixa{
         height: 575px;
     }
-
-    label{
-        font-size: 1.5em;
+    
+    .box-main{
+        width: 85%;
     }
-
-    input{
-        width: 175px;
-        margin-bottom: 15px;
-    }
-
     footer{
-        font-size: 1em;
+        font-size: 0.9em;
     }
+
 }
